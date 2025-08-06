@@ -3,13 +3,13 @@ import os ,PyPDF2,json,traceback,pandas as pd
 def readFile(file):
     if file.name.endswith(".pdf"):
         try:
-            pdf_reader=PyPDF2.PdfFileReader(file)
+            pdf_reader=PyPDF2.PdfReader(file)
             text=""
             for page in pdf_reader.pages:
                 text+=page.extract_text()
             return text
         except Exception as e:
-            raise Exception("error in reading the pdf file:"+ e)
+            raise Exception(f"error in reading the pdf file: {e}")
     elif file.name.endswith(".txt"):
         return file.read().decode("utf-8")    
     else:

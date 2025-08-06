@@ -12,7 +12,7 @@ load_dotenv()
 key=os.getenv("openai_api_key")
 
 llm=ChatOpenAI(openai_api_key=key,model_name="gpt-3.5-turbo",temperature=0.5)
-with open("D://programs/genAi_project/response.json","r") as f:
+with open("response.json","r") as f:
     response_json=json.load(f)
 
 Template1="""
