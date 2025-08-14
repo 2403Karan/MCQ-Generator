@@ -1,0 +1,6 @@
+[2025-08-14 22:39:37,119] 23 root - INFO - Logging system initialized.
+[2025-08-14 22:40:12,070] 1038 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-14 22:40:13,317] 1038 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-14 22:44:11,873] 23 root - INFO - Logging system initialized.
+[2025-08-14 22:44:39,490] 1038 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-14 22:44:41,060] 1038 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

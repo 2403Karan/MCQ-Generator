@@ -6,7 +6,3 @@
         fill form showing on local host..then quiz will be generated.."
 
 
-"# mcq-generator" 
-"# mcq-generator" 
-"# mcq-generator" 
-"# mcq-generator" 

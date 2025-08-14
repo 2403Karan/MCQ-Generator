@@ -1,0 +1,12 @@
+openai
+langchain
+streamlit
+python.dotenv
+PyPDF2
+setuptools
+langchain-openai
+langchain-community
+
+#  to install local package : 
+# 1.--> -e. 2. run python setup file
+-e .
